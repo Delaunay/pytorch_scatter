@@ -1,10 +1,10 @@
-name: Building Wheels
+name: Building Wheels ROCm
 
 on: [workflow_dispatch]
 
 jobs:
 
-  wheel:
+  wheel-rocm:
     runs-on: ${{ matrix.os }}
 
     steps:
